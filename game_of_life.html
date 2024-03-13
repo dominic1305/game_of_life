@@ -9,9 +9,14 @@
 <body>
 
 	<div class="controls">
-		<input id="rows" type="number" placeholder="Rows">
-		<input id="cols" type="number" placeholder="Columns">
-		<button id="generate">Generate Grid</button>
+		<div class="fps-counter"></div>
+		<div class="generation-controls">
+			<input id="rows" type="number" placeholder="Rows">
+			<input id="cols" type="number" placeholder="Columns">
+			<button id="generate">Generate Grid</button>
+		</div>
+		<input id="code" type="text" placeholder="Board Code">
+		<button id="start-simulation">Start</button>
 	</div>
 
 	<div class="game-container"></div>

@@ -1,14 +1,15 @@
-.controls {
+.generation-controls {
 	width: max-content;
 	display: flex;
 	flex-direction: column;
+	padding: 10px 5px;
 }
 
-.controls > * {
+.generation-controls > * {
 	margin: 5px 0;
 }
 
-.controls > #generate {
+.generation-controls > #generate {
 	cursor: pointer;
 }
 
@@ -37,4 +38,15 @@ td {
 
 .alive {
 	background-color: #ff0000ff;
+}
+
+.controls {
+	width: max-content;
+	display: flex;
+	flex-direction: column;
+}
+
+#start-simulation {
+	margin-top: 10px;
+	width: 100%;
 }
